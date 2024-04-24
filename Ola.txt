@@ -1,1 +1,70 @@
+Html estrutura básica com o uso de tags
+
+<tag> Dados </tag> <tag atributo = ""> 
+
+Ex: <h1>Título</h1>
+    <h1 class="titulo">Título</h1>
+
+Semântica importante para os mecanismos de buscas = organização do código
+
+<a> tag de navegação
+
+Aria - Role = define a função semântica de um elemento HTML
+     - Aria.* define a acessibilidade de um elemento
+
+Role ex: <div role="button" onclick="myfunction()">Clique Aqui!</div>
+
+Css
+
+h1 {
+ color: red;
+}
+
+Para não generalizar todos os titulos posso usar de class e id
+
+Definindo um titulo como class
+<h1 class="titulo">Título</h1>
+
+.titulo {
+ color: blue;
+}
+
+Definindo um outro titulo com id
+<h1 id="outro-titulo">Outro Título</h1>
+
+#outro-titulo {
+ color: green;
+}
+
+Maneiras de se aplicar estilos.. 3
+
+Direto : <p style="color:red;">Texto</p>
+Indireto: <style>
+          p {
+            color: red;
+            }
+          </style>
+
+Externo: <head>
+         <link rel"stylesheet" href=style.css"" />
+         </head>
+
+Cores
+
+div {
+ background-color: rgb(0,100,0) - verde total
+ background-color: rgba(0,255,0,0.5) - 50% de transparência 
+ background-color: hls (210, 70%, 80%) - controlar o tom da cor
+}
+
+Margin e Padding
+
+Margin {
+ Margin = 20px;
+ Margin-top = 10px;
+ Margin-right = 20px;
+ Margin-bottom = 10px;
+ Margin-left = 20px;
+}
+
 
